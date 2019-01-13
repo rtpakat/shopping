@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class List_Product extends CI_Controller {
+class List_Stock extends CI_Controller {
 
 	public function __construct()
 	{
@@ -25,7 +25,7 @@ class List_Product extends CI_Controller {
 		$this->load->view('layout/header_admin');	
 		if($result = $this->Products_Model->get_Products()){
 			$data['listProducts'] =  $result;
-			$this->load->view('admin/listproduct/index', $data);
+			$this->load->view('admin/liststock/index', $data);
 
 		}else{
 			$this->load->view('admin/products/index');

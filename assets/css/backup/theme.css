@@ -4230,8 +4230,8 @@ section {
     background: #333;
     font-size: 16px;
     color: #fff;
-    vertical-align: middle;
-    font-weight: 400;
+    /* vertical-align: middle; */
+    /* font-weight: 400; */
     text-transform: capitalize;
     line-height: 1;
     padding: 22px 40px;

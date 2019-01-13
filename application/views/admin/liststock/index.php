@@ -12,7 +12,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="title-1 m-b-25">จัดการข้อมูลสต็อกสินค้า</h2>
+                        <h2 class="title-1 m-b-25">จัดการข้อมูลสต็อกวัตถุดิบ</h2>
                         <div class="table-responsive">
 
                             <table id="Products" class="table table-borderless table-striped table-earning" style="word-wrap:break-word;">

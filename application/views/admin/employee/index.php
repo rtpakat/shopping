@@ -17,7 +17,7 @@
                                 <h2 class="title-1 m-b-25">จัดการข้อมูลพนักงาน</h2>
                                 <div class="table-responsive table--no-card m-b-40">
 
-                                    <table id="Users" class="table table-borderless table-striped table-earning" style="width:100%">
+                                    <table id="Users" class="table table-borderless table-striped table-earning1" style="width:100%">
                                         <thead>
                                             <tr>
                                                 <th>ไอดี</th>                                                
@@ -54,7 +54,7 @@
                               </div>
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <a href="<?php echo base_url('admin/users/delete/'.$result->user_id); ?>" >
+                                <a href="<?php echo base_url('admin/Users/delete_user/'.$result->user_id); ?>" >
                                 <button type="button" class="btn btn-danger" id="del-confirm-<?php echo $result->user_id ?>" userid="<?php echo $result->user_id ?>">Delete</button></a>
                               </div>
                             </div>

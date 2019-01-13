@@ -15,22 +15,21 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="title-1 m-b-25">จัดการข้อมูลสินค้า</h2>
-                        <div class="table-responsive table--no-card m-b-40">
+                        <div class="table-responsive">
 
-                            <table id="Products" class="table table-borderless table-striped table-earning" style="width:500%;word-wrap:break-word;">
+                            <table id="Products" class="table table-borderless table-striped table-earning" style="width:500%;word-wrap:break-word;margit-top:12px;">
                                 <thead>
                                     <tr>
-                                        <th width="50%;">รูปสินค้า</th>
-                                        <th width="50%;">ชื่อสินค้า</th>
-                                        <th width="50%;">รายละเอียดสินค้า</th>
-                                        <th width="50%;">size</th>
-                                        <th width="50%;">ราคา</th>
-                                        <th width="50%;">สถานะสินค้า</th>
-                                        <th width="50%;">สินค้าคงเหลือ</th>
-                                        <th width="50%;">ประเภท</th>
-                                        <th width="50%;">ลงวันที่</th>
-                                        <th width="50%;">จัดการสต๊อก</th>
-                                        <th width="50%;">จัดการ</th>
+                                        <th width="20%;">รูปสินค้า</th>
+                                        <th width="20%;">ชื่อสินค้า</th>
+                                        <th width="20%;">รายละเอียดสินค้า</th>
+                                        <th width="20%;">size</th>
+                                        <th width="20%;">ราคา</th>
+                                        <th width="20%;">สถานะสินค้า</th>
+                                        <th width="20%;">สินค้าคงเหลือ</th>
+                                        <th width="20%;">ประเภท</th>
+                                        <th width="20%;">ลงวันที่</th>
+                                        <th width="20%;">จัดการ</th>
                                         
                                     </tr>
                                 </thead>
@@ -38,23 +37,23 @@
                                     <?php foreach($listProducts as $result): ?>
                                     <tr>
                                         <!-- <td><?php echo $result->product_img; ?></td> -->
-                                        <td width="50%;"><img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>"></td>
-                                        <td width="50%;">
+                                        <td width="20%;"><img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>"></td>
+                                        <td width="20%;">
                                             <?php echo $result->product_name; ?>
                                         </td>
-                                        <td width="50%;">
+                                        <td width="20%;">
                                             <?php echo $result->product_detail; ?>
                                         </td>
-                                        <td width="50%;">
+                                        <td width="20%;">
                                             <?php echo $result->product_size; ?>
                                         </td>
-                                        <td width="50%;">
+                                        <td width="20%;">
                                             <?php echo $result->product_price; ?>
                                         </td>
-                                        <td width="50%;">
+                                        <td width="20%;">
                                             <?php echo $result->product_status; ?>
                                         </td>
-                                        <td width="50%;">
+                                        <td width="20%;">
                                             <?php if($result->product_quality == 0) {?>
                                             <span class="Inventory" style="color: #ff0001;">
                                                 <?php echo $result->product_quality; ?></span></td>
@@ -64,29 +63,19 @@
                                             <?php echo $result->product_quality; ?></span></td>
 
                                         <?php }?>
-                                        <td width="50%;">
+                                        <td width="20%;">
                                             <?php echo $result->cate_name; ?>
                                         </td>
-                                        <td width="50%;">
+                                        <td width="20%;">
                                             <?php echo $result->create_time; ?>
                                         </td>
-                                        <td width="50%;">
-                                        <a href="<?php echo base_url('admin/List_Product/form_add/'.$result->product_id); ?>" 
-                                        class="btn btn-success btn-xs"><i class="zmdi zmdi-plus"></i> ADD Stock</a>
-                                        <?php if($result->product_quality > 0){ ?>
-                                        <a href="<?php echo base_url('admin/List_Product/form_withdraw/'.$result->product_id); ?>"
-                                         class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i> Withdraw </a>
-                                        <?php } ?>
-                                        <a href="<?php echo base_url('admin/List_Product/product/'.$result->product_id); ?>" 
-                                        class="btn btn-success btn-xs"><i class="zmdi zmdi-format-list-bulleted"></i> VIEW </a>
-                                        </td>
-                                        <td width="50%;">          
+                                        <td width="20%;">          
 
-
-                                            <a href="<?php echo base_url('admin/products/form_edit/'.$result->product_id); ?>"
-                                                class="btn btn-warning btn-xs"><i class="zmdi zmdi-edit"></i> Edit </a>
-                                            <a data-toggle="modal" href="#del-<?php echo $result->product_id ?>" class="btn btn-danger btn-xs"><i
-                                                    class="zmdi zmdi-delete"></i> Del </a>
+                                           <a href="<?php echo base_url('admin/products/form_edit/'.$result->product_id); ?>"
+                                                class="btn btn-warning btn-xs" style="width:100%;"><i class="zmdi zmdi-edit"></i> Edit </a>
+                                            <a data-toggle="modal" href="#del-<?php echo $result->product_id ?>" 
+                                            class="btn btn-danger btn-xs" style="width:100%;"><i
+                                                    class="zmdi zmdi-delete" ></i> Del </a>
                                         </td>
                                     </tr>
 
