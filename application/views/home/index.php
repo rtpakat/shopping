@@ -1,26 +1,24 @@
-<div data-vide-bg="video/video">
+
+<div data-vide-bg="video/video" style="position: relative;"><div style="position: absolute; z-index: -1; top: 0px; left: 0px; bottom: 0px; right: 0px; overflow: hidden; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; background-image: url(&quot;https://p.w3layouts.com/demos/june-2016/01-06-2016/big_store/web/video/video.gif&quot;);"><video autoplay="" loop="" muted="" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; width: 1351px; height: auto;"><source src="video/video.mp4" type="video/mp4"><source src="video/video.webm" type="video/webm"><source src="video/video.ogv" type="video/ogg"></video></div>
     <div class="container">
 		<div class="banner-info">
-			<h3>It is a long established fact that a reader will be distracted by 
-			the readable </h3>	
-			<div class="search-form">
+			<h3 style="font-family:kanit">การแปรรูปผลผลิตทางการเกษตร<br>กลุ่มวิสาหกิจชุมชนบ้านแควแปรรูปผลไม้</h3>	
+			<!-- <div class="search-form">
 				<form action="#" method="post">
 					<input type="text" placeholder="Search..." name="Search...">
-					<input type="submit" value=" " >
+					<input type="submit" value=" ">
 				</form>
-			</div>		
+			</div>		 -->
 		</div>	
     </div>
 </div>
-
-    <script>window.jQuery || document.write('<script src="<?php echo base_url('assets/js/vendor/jquery-1.11.1.min.js'); ?>"><\/script>')</script>
-	<script src="<?php echo base_url('assets/js/jquery.vide.min.js'); ?>"></script>
 
 <!--content-->
 <div class="content-top ">
 	<div class="container ">
 		<div class="spec ">
-			<h3>Special Offers</h3>
+			<h3 style="font-family:kanit">ผลิตภัณฑ์ที่จัดจำหน่าย</h3>
+			<span><a href="" data-toggle="modal" data-target="#howtobuy">วิธีการสั่งซื้อ</a></span><br><br>
 			<div class="ser-t">
 				<b></b>
 				<span><i></i></span>
@@ -30,1515 +28,421 @@
 			<div class="tab-head ">
 				<nav class="nav-sidebar">
 					<ul class="nav tabs ">
-					  <li class="active"><a href="#tab1" data-toggle="tab">แบบกวน</a></li>
-					  <li class=""><a href="#tab2" data-toggle="tab">แบบอบแห้ง</a></li> 
-					  <li class=""><a href="#tab3" data-toggle="tab">เครื่องดื่มแบบผง</a></li>  
-					  <li class=""><a href="#tab4" data-toggle="tab">แบบลูกอม</a></li>
+					  <li class="active"><a href="#tab1" data-toggle="tab">ผลิตภัณฑ์ประเภทกวน</a></li>
+					  <li class=""><a href="#tab2" data-toggle="tab">ผลิตภัณฑ์ประเภทอบแห้ง</a></li> 
+					  <li class=""><a href="#tab3" data-toggle="tab">ผลิตภัณฑ์ประเภทเครื่องดื่ม(ผง)</a></li>  
+					  <li class=""><a href="#tab4" data-toggle="tab">ผลิตภัณฑ์ประเภททอฟฟี่</a></li>
 					</ul>
 				</nav>
 				<div class=" tab-content tab-content-t ">
-					<div class="tab-pane active text-style" id="tab1">
-						<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">								
-									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Moong</a>(1 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$2.00</label><em class="item_price">$1.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="Moong" data-summary="summary 1" data-price="1.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Sunflower Oil</a>(5 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$10.00</label><em class="item_price">$9.00</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-												<div class="add">
-                                           <button class="btn btn-danger my-cart-btn my-cart-b" data-id="2"
-                                            data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" 
-                                           data-quantity="1" data-image="<?php echo base_url('assets/images/of2.png'); ?>">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
-										<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Kabuli Chana</a>(1 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$3.00</label><em class="item_price">$2.00</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Soya Chunks</a>(1 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						 </div>
-					</div>
-					<div class="tab-pane  text-style" id="tab2">
-						<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of4.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Lays</a>(100 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of5.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Kurkure</a>(100 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of6.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Popcorn</a>(250 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="7" data-name="Popcorn" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of7.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Nuts</a>(250 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						 </div>		  
-					</div>
-					<div class="tab-pane  text-style" id="tab3">
-						<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-								<a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
-								<img src="<?php echo base_url('assets/images/of8.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Banana</a>(6 pcs)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$2.00</label><em class="item_price">$1.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="9" data-name="Banana" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of9.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Onion</a>(1 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="10" data-name="Onion" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of10.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html"> Bitter Gourd</a>(1 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="11" data-name="Bitter Gourd" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Apples</a>(1 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="12" data-name="Apples" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						 </div>		  
-					</div>
-					<div class="tab-pane text-style" id="tab4">
-							<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-								<a href="#" data-toggle="modal" data-target="#myModal13" class="offer-img">
-								<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Honey</a>(500 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="13" data-name="Honey" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m ">
-									<a href="#" data-toggle="modal" data-target="#myModal14" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of13.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Chocos</a>(250 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="14" data-name="Chocos" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m ">
-									<a href="#" data-toggle="modal" data-target="#myModal15" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Oats</a>(1 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-                                           <button class="btn btn-danger my-cart-btn my-cart-b" data-id="15" data-name="Oats" 
-                                           data-summary="summary 15" data-price="3.50" 
-                                           data-quantity="1" data-image="<?php echo base_url('assets/images/of2.png');?>">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal16" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of15.png'); ?>" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Bread</a>(500 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="16" data-name="Bread" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						 </div>
-					</div>
-				</div>
-			</div>
-		
-	</div>
-	</div>
-	</div>
+                <div class="tab-pane active text-style" id="tab1">
+                    <div class=" con-w3l">
+                        <?php foreach($listProducts as $result): ?>
+                        <?php if($result->cate_id ==1) { ?>
+                          
+                        <div class="col-md-3 m-wthree">
+                            <div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="<?php echo "#myModal". $result->product_id ?>" class="offer-img">
+                                    <img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>"
+                                        class="img-responsive" alt="">
+                                    <div class="offer">
+                                        <p><span>Offer</span></p>
+                                    </div>
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a href="single.html">
+                                                <?php echo $result->product_name; ?></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <!-- <p ><label>$10.00</label><em class="item_price">$9.00</em></p> -->
+                                        <p><em class="item_price">
+                                                <?php echo $result->product_price; ?></em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"> </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="<?php echo $result->product_id ?>" data-name="<?php echo $result->product_name; ?>"
+                                            data-summary="summary 2" data-price="<?php echo $result->product_price; ?>"
+                                            data-quantity="1" data-image="<?php echo base_url('assets/images/products/'.$result->product_img); ?>">Add
+                                            to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php } ?>
+                        <?php endforeach; ?>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="tab-pane  text-style" id="tab2">
+                    <div class=" con-w3l">
+					<?php foreach($listProducts as $result): ?>
+                        <?php if($result->cate_id ==2) { ?>
+                        <div class="col-md-3 m-wthree">
+						<div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="<?php echo "#myModal". $result->product_id ?>" class="offer-img">
+                                    <img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>"
+                                        class="img-responsive" alt="">
+                                    <div class="offer">
+                                        <p><span>Offer</span></p>
+                                    </div>
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a href="single.html">
+                                                <?php echo $result->product_name; ?></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <!-- <p ><label>$10.00</label><em class="item_price">$9.00</em></p> -->
+                                        <p><em class="item_price">
+                                                <?php echo $result->product_price; ?></em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"> </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="<?php echo $result->product_id ?>" data-name="<?php echo $result->product_name; ?>"
+                                            data-summary="summary 2" data-price="<?php echo $result->product_price; ?>"
+                                            data-quantity="1" data-image="<?php echo base_url('assets/images/products/'.$result->product_img); ?>">Add
+                                            to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<?php } ?>
+                        <?php endforeach; ?>
+                        
+                           
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="tab-pane  text-style" id="tab3">
+                    <div class=" con-w3l">
+					<?php foreach($listProducts as $result): ?>
+                        <?php if($result->cate_id ==3) { ?>
+                        <div class="col-md-3 m-wthree">
+						<div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="<?php echo "#myModal". $result->product_id ?>" class="offer-img">
+                                    <img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>"
+                                        class="img-responsive" alt="">
+                                    <div class="offer">
+                                        <p><span>Offer</span></p>
+                                    </div>
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a href="single.html">
+                                                <?php echo $result->product_name; ?></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <!-- <p ><label>$10.00</label><em class="item_price">$9.00</em></p> -->
+                                        <p><em class="item_price">
+                                                <?php echo $result->product_price; ?></em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"> </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="<?php echo $result->product_id ?>" data-name="<?php echo $result->product_name; ?>"
+                                            data-summary="summary 2" data-price="<?php echo $result->product_price; ?>"
+                                            data-quantity="1" data-image="<?php echo base_url('assets/images/products/'.$result->product_img); ?>">Add
+                                            to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<?php } ?>
+                        <?php endforeach; ?>
+                        
+                           
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="tab-pane  text-style" id="tab4">
+                    <div class=" con-w3l">
+					<?php foreach($listProducts as $result): ?>
+                        <?php if($result->cate_id ==4) { ?>
+                        <div class="col-md-3 m-wthree">
+						<div class="col-m">
+                                <a href="#" data-toggle="modal" data-target="<?php echo "#myModal". $result->product_id ?>" class="offer-img">
+                                    <img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>"
+                                        class="img-responsive" alt="">
+                                    <div class="offer">
+                                        <p><span>Offer</span></p>
+                                    </div>
+                                </a>
+                                <div class="mid-1">
+                                    <div class="women">
+                                        <h6><a href="single.html">
+                                                <?php echo $result->product_name; ?></a></h6>
+                                    </div>
+                                    <div class="mid-2">
+                                        <!-- <p ><label>$10.00</label><em class="item_price">$9.00</em></p> -->
+                                        <p><em class="item_price">
+                                                <?php echo $result->product_price; ?></em></p>
+                                        <div class="block">
+                                            <div class="starbox small ghosting"> </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="add">
+                                        <button class="btn btn-danger my-cart-btn my-cart-b" data-id="<?php echo  $result->product_id ?>" data-name="<?php echo $result->product_name; ?>"
+                                            data-summary="summary 2" data-price="<?php echo $result->product_price; ?>"
+                                            data-quantity="1" data-image="<?php echo base_url('assets/images/products/'.$result->product_img); ?>">Add
+                                            to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<?php } ?>
+                        <?php endforeach; ?>
+                        
+                           
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
 
 <!--content-->
 <div class="content-mid">
-	<div class="container">
-		
-		<div class="col-md-4 m-w3ls">
-			<div class="col-md1 ">
-				<a href="kitchen.html">
-				<img src="<?php echo base_url('assets/images/co.jpg'); ?>" class="img-responsive" alt="">
-					<div class="big-sa">
-						<h6>New Collections</h6>
-						<h3>Season<span>ing </span></h3>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="col-md-4 m-w3ls1">
-			<div class="col-md ">
-				<a href="hold.html">
-				<img src="<?php echo base_url('assets/images/co1.jpg'); ?>" class="img-responsive" alt="">
-					<div class="big-sale">
-						<div class="big-sale1">
-							<h3>Big <span>Sale</span></h3>
-							<p>It is a long established fact that a reader </p>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="col-md-4 m-w3ls">
-			<div class="col-md2 ">
-				<a href="kitchen.html">
-				<img src="<?php echo base_url('assets/images/co2.jpg'); ?>" class="img-responsive" alt="">
-					<div class="big-sale2">
-						<h3>Cooking <span>Oil</span></h3>
-						<p>It is a long established fact that a reader </p>		
-					</div>
-				</a>
-			</div>
-			<div class="col-md3 ">
-				<a href="hold.html">
-				<img src="<?php echo base_url('assets/images/co3.jpg'); ?>" class="img-responsive" alt="">
-					<div class="big-sale3">
-						<h3>Vegeta<span>bles</span></h3>
-						<p>It is a long established fact that a reader </p>
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
+    <div class="container">
+
+        <div class="col-md-4 m-w3ls">
+            <div class="col-md1 ">
+                <a href="kitchen.html">
+                    <img src="<?php echo base_url('assets/images/co.jpg'); ?>" class="img-responsive" alt="">
+                    <div class="big-sa">
+                        <h6>New Collections</h6>
+                        <h3>Season<span>ing </span></h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 m-w3ls1">
+            <div class="col-md ">
+                <a href="hold.html">
+                    <img src="<?php echo base_url('assets/images/co1.jpg'); ?>" class="img-responsive" alt="">
+                    <div class="big-sale">
+                        <div class="big-sale1">
+                            <h3>Big <span>Sale</span></h3>
+                            <p>It is a long established fact that a reader </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 m-w3ls">
+            <div class="col-md2 ">
+                <a href="kitchen.html">
+                    <img src="<?php echo base_url('assets/images/co2.jpg'); ?>" class="img-responsive" alt="">
+                    <div class="big-sale2">
+                        <h3>Cooking <span>Oil</span></h3>
+                        <p>It is a long established fact that a reader </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md3 ">
+                <a href="hold.html">
+                    <img src="<?php echo base_url('assets/images/co3.jpg'); ?>" class="img-responsive" alt="">
+                    <div class="big-sale3">
+                        <h3>Vegeta<span>bles</span></h3>
+                        <p>It is a long established fact that a reader </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
 </div>
 <!--content-->
-  <!-- Carousel
+<!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
+    </ol>
+    <div class="carousel-inner" role="listbox">
         <div class="item active">
-         <a href="kitchen.html"> <img class="first-slide" src="<?php echo base_url('assets/images/ba.jpg'); ?>" alt="First slide"></a>
-       
+            <a href="kitchen.html"> <img class="first-slide" src="<?php echo base_url('assets/images/ba.jpg'); ?>" alt="First slide"></a>
+
         </div>
         <div class="item">
-         <a href="care.html"> <img class="second-slide " src="<?php echo base_url('assets/images/ba1.jpg'); ?>" alt="Second slide"></a>
-         
+            <a href="care.html"> <img class="second-slide " src="<?php echo base_url('assets/images/ba1.jpg'); ?>" alt="Second slide"></a>
+
         </div>
         <div class="item">
-          <a href="hold.html"><img class="third-slide " src="<?php echo base_url('assets/images/ba2.jpg'); ?>" alt="Third slide"></a>
-          
+            <a href="hold.html"><img class="third-slide " src="<?php echo base_url('assets/images/ba2.jpg'); ?>" alt="Third slide"></a>
+
         </div>
-      </div>
-    
-    </div><!-- /.carousel -->
+    </div>
+
+</div><!-- /.carousel -->
 
 <!--content-->
-	<div class="product">
-		<div class="container">
-			<div class="spec ">
-				<h3>Special Offers</h3>
-				<div class="ser-t">
-					<b></b>
-					<span><i></i></span>
-					<b class="line"></b>
-				</div>
+<div class="product">
+    <div class="container">
+        <div class="spec ">
+            <h3>Special Offers</h3>
+            <div class="ser-t">
+                <b></b>
+                <span><i></i></span>
+                <b class="line"></b>
+            </div>
+        </div>
+        <div class=" con-w3l">
+            <?php foreach($listProducts as $result): ?>
+            <div class="col-md-3 pro-1">
+                <div class="col-m">
+                    <a href="#" data-toggle="modal" data-target="<?php echo "#myModal". $result->product_id ?>" class="offer-img">
+					<img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>">
+                    </a>
+                    <div class="mid-1">
+                        <div class="women">
+                            <h6><a href="single.html"> <?php echo $result->product_name ?></a>(250 g)</h6>
+                        </div>
+                        <div class="mid-2">
+                            <p><label></label><em class="item_price"><?php echo $result->product_price ?></em></p>
+                            <div class="block">
+                                <div class="starbox small ghosting"> </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="add">
+                            <button class="btn btn-danger my-cart-btn my-cart-b" data-id="<?php echo $result->product_id ?>" data-name="<?php echo $result->product_name ?>"
+                                data-summary="summary 1" data-price="<?php echo $result->product_price ?>" data-quantity="1" data-image="<?php echo base_url('assets/images/products/'.$result->product_img); ?>">Add
+                                to Cart</button>
+                        </div>
+                    </div>
+                </div>
 			</div>
-				<div class=" con-w3l">
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-								<a href="#" data-toggle="modal" data-target="#myModal17" class="offer-img">
-								<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Moisturiser</a>(500 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add add-2">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="6.00" data-quantity="1" data-image="images/of16.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal18" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">  Lady Finger</a>(250 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="4.50" data-quantity="1" data-image="images/of17.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal19" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html"> Ribbon</a>(1 pc)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="3.50" data-quantity="1" data-image="images/of18.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal20" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Grapes</a>(500 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="0.80" data-quantity="1" data-image="images/of19.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-								<a href="#" data-toggle="modal" data-target="#myModal21" class="offer-img">
-								<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Clips</a>(1 pack)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="6.00" data-quantity="1" data-image="images/of20.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal22" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Conditioner</a>(250 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="4.50" data-quantity="1" data-image="images/of21.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal23" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Cleaner</a>(250 kg)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="3.50" data-quantity="1" data-image="images/of22.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 pro-1">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal24" class="offer-img">
-									<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Gel</a>(150 g)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="0.80" data-quantity="1" data-image="images/of23.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						 </div>
-		</div>
-	</div>
+			<?php endforeach; ?>
+            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
 <!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-		*/								
-		$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+        	var defaults = {
+        	containerID: 'toTop', // fading element id
+        	containerHoverID: 'toTopHover', // fading element hover id
+        	scrollSpeed: 1200,
+        	easingType: 'linear' 
+        	};
+        */
+        $().UItoTop({
+            easingType: 'easeOutQuart'
+        });
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 <!-- for bootstrap working -->
-		<script  src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
 <!-- //for bootstrap working -->
 <script type='text/javascript' src="<?php echo base_url('assets/js/jquery.mycart.js'); ?>"></script>
-  <script type="text/javascript">
-  $(function () {
+<script type="text/javascript">
+    $(function() {
 
-    var goToCartIcon = function($addTocartBtn){
-      var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
-      $addTocartBtn.prepend($image);
-      var position = $cartIcon.position();
-      $image.animate({
-        top: position.top,
-        left: position.left
-      }, 500 , "linear", function() {
-        $image.remove();
-      });
-    }
+        var goToCartIcon = function($addTocartBtn) {
+            var $cartIcon = $(".my-cart-icon");
+            var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({
+                "position": "fixed",
+                "z-index": "999"
+            });
+            $addTocartBtn.prepend($image);
+            var position = $cartIcon.position();
+            $image.animate({
+                top: position.top,
+                left: position.left
+            }, 500, "linear", function() {
+                $image.remove();
+            });
+        }
 
-    $('.my-cart-btn').myCart({
-      classCartIcon: 'my-cart-icon',
-      classCartBadge: 'my-cart-badge',
-      affixCartIcon: true,
-      checkoutCart: function(products) {
-        $.each(products, function(){
-          console.log(this);
+        $('.my-cart-btn').myCart({
+            classCartIcon: 'my-cart-icon',
+            classCartBadge: 'my-cart-badge',
+            affixCartIcon: true,
+            checkoutCart: function(products) {
+                $.each(products, function() {
+                    console.log(this);
+                });
+            },
+            clickOnAddToCart: function($addTocart) {
+                goToCartIcon($addTocart);
+            },
+            getDiscountPrice: function(products) {
+                var total = 0;
+                $.each(products, function() {
+                    total += this.quantity * this.price;
+                });
+                return total * 1;
+                // console.log()
+            }
         });
-      },
-      clickOnAddToCart: function($addTocart){
-        goToCartIcon($addTocart);
-      },
-      getDiscountPrice: function(products) {
-        var total = 0;
-        $.each(products, function(){
-          total += this.quantity * this.price;
-        });
-        return total * 1;
-      }
+
     });
+</script>
 
-  });
-  </script>
-  
-  <!-- product -->
-			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">>
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Moong(1 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$2.00</del>$1.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="1" data-name="Moong" data-summary="summary 1" data-price="1.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-<!-- product -->
-			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Sunflower Oil(5 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$10.00</del>$9.00</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-                                           <button class="btn btn-danger my-cart-btn my-cart-btn1 " 
-                                           data-id="2" data-name="Sunflower Oil" data-summary="summary 2" 
-                                           data-price="9.00" data-quantity="1" data-image="<?php echo base_url('assets/images/of2.png'); ?>">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Kabuli Chana(1 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$3.00</del>$2.00</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Soya Chunks(1 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Lays(100 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Kurkure(100 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Popcorn(250 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$2.00</del>$1.00</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="7" data-name="Popcorn" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Nuts(250 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Banana(6 pcs)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$2.00</del>$1.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="9" data-name="Banana" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Onion(1 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="10" data-name="Onion" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Bitter Gourd(1 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$2.00</del>$1.00</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="11" data-name="Bitter Gourd" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Apples(1 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="12" data-name="Apples" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Honey(500 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$7.00</del>$6.00</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="13" data-name="Honey" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Chocos(250 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$5.00</del>$4.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="14" data-name="Chocos" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Oats(1 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="15" data-name="Oats" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Bread(500 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="16" data-name="Bread" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Moisturiser(500 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="17" data-name="Moisturiser" data-summary="summary 17" data-price="0.80" data-quantity="1" data-image="images/of16.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Lady Finger(250 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="18" data-name="Lady Finger" data-summary="summary 18" data-price="0.80" data-quantity="1" data-image="images/of17.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Satin Ribbon Red(1 pc)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="19" data-name="Satin Ribbon Red" data-summary="summary 19" data-price="0.80" data-quantity="1" data-image="images/of18.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Grapes(500 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="20" data-name="Grapes" data-summary="summary 20" data-price="0.80" data-quantity="1" data-image="images/of19.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Clips(1 pack)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="21" data-name="Clips" data-summary="summary 21" data-price="0.80" data-quantity="1" data-image="images/of20.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Conditioner</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="22" data-name="Conditioner" data-summary="summary 22" data-price="0.80" data-quantity="1" data-image="images/of21.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Cleaner(250 kg)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="23" data-name="Cleaner" data-summary="summary 23" data-price="0.80" data-quantity="1" data-image="images/of22.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-											<img src="<?php echo base_url('assets/images/of2.png'); ?>" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Gel(150 g)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="24" data-name="Gel" data-summary="summary 24" data-price="0.80" data-quantity="1" data-image="images/of23.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
+
+<?php foreach($listProducts as $result): ?>
+
+<div class="modal fade" id="<?php echo "myModal". $result->product_id ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content modal-info">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+           
+
+            <div class="modal-body modal-spa">
+                <div class="col-md-5 span-2">
+                    <div class="item">
+                        <img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>" class="img-responsive"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-md-7 span-1 ">
+                    <h3><?php echo $result->product_name ?></h3>
+                    <p class="in-para"> <?php echo $result->product_title ?></p>
+                    <div class="price_single">
+                        <span class="reducedfrom "><del></del><?php echo $result->product_price ?></span>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <h4 class="quick">Quick Overview:</h4>
+                    <p class="quick_desc"> <?php echo $result->product_detail ?></p>
+                    <div class="add-to">
+                        <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="<?php echo $result->product_id ?>" data-name="<?php echo $result->product_name ?>"
+                            data-summary="summary 1" data-price="<?php echo $result->product_price ?>" data-quantity="1" data-image="<?php echo base_url('assets/images/products/'.$result->product_img); ?>">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+           
+        </div>
+    </div>
+    
+</div>
+<?php endforeach; ?>
 </body>
 
 <!-- <script>
@@ -1568,3 +472,75 @@ function save(){
 }
 
 </script> -->
+
+<script>
+window.onscroll = startsc;
+function startsc() {
+	var sctop = (document.all)?document.body.scrollTop:window.pageYOffset;
+	document.getElementById("Cart").style.top = sctop+5+"px";
+}
+
+var elements = document.getElementsByTagName("price")
+for (var i = 0; i < elements.length; i++) {
+    if(elements[i].value == "") {
+        alert('empty');
+        //Do something here
+    }
+}
+
+console.log(localStorage.getItem('sumpqulity'));    
+
+
+function load_data(amount_product,sumprice){
+    // debugger;
+  $.ajax({
+    url:"<?php echo base_url();?>member/Order_member/insert_ref_order",   
+    method: "POST",
+    // contentType: 'application/json; charset=utf-8',
+    // url: "'http:/localhost/shopping/api/order/",
+    data:{ "amount_product": amount_product ,"sumprice":sumprice},
+    success: function (data) {
+        if(data>0){
+            send_data(data);
+        }else{
+
+        }
+      console.log("REF DATA FK: "+ data);
+    //   console.log(datareturn.promise.responseText);
+    }
+    // send_data();
+  });
+  //console.log(localStorage.getItem('order_id'));
+  
+
+}
+
+</script>		
+<script>
+function send_data(x){
+console.log("-----------------------") ;
+//console.log(localStorage.getItem('products'));
+localStorage.setItem("order_id", x);
+var test = localStorage.getItem('products');
+var storedNames = JSON.parse(localStorage.getItem("products"));
+
+for(var i=0; i<storedNames.length; i++){
+    $.ajax({
+    url:"<?php echo base_url();?>member/Order_member/insert_order_detail",   
+    method: "POST",
+    // contentType: 'application/json; charset=utf-8',
+    // url: "'http:/localhost/shopping/api/order/",
+    data:{ "order_id": localStorage.getItem("order_id"), "product_id": storedNames[i] },
+    success: function (data) {
+      console.log(data);
+    }
+  });
+}
+
+
+
+}
+
+</script>
+
+

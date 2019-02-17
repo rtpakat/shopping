@@ -15,9 +15,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="title-1 m-b-25">จัดการข้อมูลสินค้า</h2>
-                        <div class="table-responsive">
+                        <div class="table-responsive table--no-card m-b-40">
 
-                            <table id="Products" class="table table-borderless table-striped table-earning" style="width:500%;word-wrap:break-word;margit-top:12px;">
+                            <table id="Products" class="table table-borderless table-striped table-earning" style="width:100%" >
                                 <thead>
                                     <tr>
                                         <th width="20%;">รูปสินค้า</th>
@@ -37,21 +37,24 @@
                                     <?php foreach($listProducts as $result): ?>
                                     <tr>
                                         <!-- <td><?php echo $result->product_img; ?></td> -->
-                                        <td width="20%;"><img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>"></td>
+                                        <td width="20%;"><img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>" width="100%;height:100%;"></td>
                                         <td width="20%;">
                                             <?php echo $result->product_name; ?>
                                         </td>
                                         <td width="20%;">
-                                            <?php echo $result->product_detail; ?>
+                                            <?php echo $result->product_title; ?>
                                         </td>
                                         <td width="20%;">
                                             <?php echo $result->product_size; ?>
                                         </td>
-                                        <td width="20%;">
+                                        <td width="20%;" style="color: #ffae01;">
                                             <?php echo $result->product_price; ?>
                                         </td>
                                         <td width="20%;">
-                                            <?php echo $result->product_status; ?>
+                                        <?php if($result->product_status == 'n') {
+                                            echo "สินค้าขึ้นเว็บ";
+                                        } 
+                                        ?>
                                         </td>
                                         <td width="20%;">
                                             <?php if($result->product_quality == 0) {?>

@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="overview-wrap">
-                            <h2 class="title-1">Page Products</h2>        
+                            <h2 class="title-1">Page Products List</h2>        
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                                     <?php foreach($listProducts as $result): ?>
                                     <tr>
                                         <!-- <td><?php echo $result->product_img; ?></td> -->
-                                        <td width="10%;"><img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>" width="70%;height:70%;"></td>
+                                        <td width="10%;"><img src="<?php echo base_url('assets/images/products/'.$result->product_img); ?>" width="100%;height:100%;"></td>
                                         <td width="10%;">
                                             <?php echo $result->product_name; ?>
                                         </td>
@@ -98,3 +98,17 @@
                         </div>
                     </div>
                 </div>
+
+<style>
+    #Products_wrapper {
+    width: 100%;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#Products_wrapper input {
+    width: 1050px;
+    font-size: 20px;
+    padding: 5px;
+}
+</style>

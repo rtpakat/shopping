@@ -46,7 +46,7 @@
                                             <label class="form-group control-label" for="password">password
                                             </label>
 
-                                            <input type="type" id="password" name="password" value="<?php echo $result->password ?>"
+                                            <input type="password" id="password" name="password" value="<?php echo $result->password ?>"
                                                 class="form-control">
 
                                         </div>

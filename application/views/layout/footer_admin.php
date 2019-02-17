@@ -54,6 +54,7 @@
     <!-- <script src="js/main.js"></script> -->
     <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
     <script src="<?php echo base_url('assets/js/tables.js'); ?>"></script>
+    <link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel='stylesheet' type='text/css' />
     <!-- <script>
             $(".list-unstyled a").on("click", function() {
                 console.log("click");

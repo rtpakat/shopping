@@ -11,7 +11,7 @@
                         </div>
                         <hr>
                         <form id="edit-user" data-parsley-validate class="form-horizontal form-label-left" method="POST"
-                            enctype="multipart/form-data" action="<?php echo base_url('admin/users/insert_user'); ?>">
+                            enctype="multipart/form-data" action="<?php echo base_url('admin/users/insert_user'); ?>" onSubmit="JavaScript:return fncSubmit();">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
                                     <label class="control-label" for="name">ชื่อ
@@ -33,7 +33,7 @@
                                 <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
                                     <label class="control-label  " for="password">password
                                     </label>
-                                    <input type="type" id="password" name="password" class="form-control ">
+                                    <input type="password" id="password" name="password" class="form-control ">
                                 </div>
                             </div>
                             <div class="row">
@@ -52,7 +52,7 @@
                                     </label>
                                     <select class="form-control" name="typeuser">
                                         <?php foreach($type as $typeuser): ?>
-                                        <?php if($typeuser->type_id != 1){ ?>
+                                        <?php if($typeuser->type_name != 'member'){ ?>
                                         <option value="<?php echo $typeuser->type_id ?>">
                                             <?php echo $typeuser->type_name ?>
                                         </option>
@@ -70,7 +70,7 @@
                                     <textarea class="form-control" required="required" rows="12" id="address" name="address"></textarea>
 
                                 </div>
-                            </div>
+                            </div>  
                             <center>
                                 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                                     <button type="submit" class="btn btn-success btn-lg">Save</button><br /><br />
@@ -80,3 +80,16 @@
                     </div>
                 </div>
             </div>
+
+            <script type="text/javascript">
+
+function fncSubmit()
+{
+    echo "submit";
+    if(document.getElementById('name').value == "")
+    {
+        alert('PLEASE INPUT DATA');
+        return false;
+    }
+}
+</script>            

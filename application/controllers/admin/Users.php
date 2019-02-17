@@ -6,11 +6,10 @@ class Users extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		// if($this->session->userdata('auth') == null && $this->session->userdata('auth') !== "SuperAdmin" && $this->session->userdata('auth') !== "Staff")
-		// {
-		// 	//console.log('no login');
-		// 	redirect('login');
-		// }
+		if($this->session->userdata('auth') == null && $this->session->userdata('auth') <= 0)
+		{
+			redirect('home');
+		}
 		$this->load->model('Users_Model');
 	}
 
@@ -50,13 +49,13 @@ class Users extends CI_Controller {
 	{
 		if($this->input->server('REQUEST_METHOD') == "POST")
 		{
-			$pass = md5($this->input->post('password'));
+			//$pass = md5($this->input->post('password'));
 
 			$data = array(
 				'name' => $this->input->post('name'),
 				'lastname' => $this->input->post('lastname'),				
 				'email' => $this->input->post('email'),
-				'password' => $pass,
+				'password' => $this->input->post('password'),
 				'tel' => $this->input->post('tel'),
 				'address' => $this->input->post('address'),
 				'salary' => $this->input->post('salary'),
@@ -80,9 +79,9 @@ class Users extends CI_Controller {
 			$data['listUserID'] =  $result;
 			$index_data = array_merge($datatype,$data);
 			// print_r($data);
-			$this->load->view('admin/users/form_edit' ,$index_data);
+			$this->load->view('admin/employee/form_edit' ,$index_data);
 		}else{
-			$this->load->view('admin/users/form_edit' ,$index_data);
+			$this->load->view('admin/employee/form_edit');
 		}
 		$this->load->view('layout/footer_admin');
 
@@ -96,18 +95,21 @@ class Users extends CI_Controller {
 			$data = array(
 				'name' => $this->input->post('name'),
 				'lastname' => $this->input->post('lastname'),				
-				'email' => $this->input->post('email'),				
-				// 'password' => $this->input->post('password'),
+				'email' => $this->input->post('email'),
+				'password' => $this->input->post('password'),
+				'tel' => $this->input->post('tel'),
+				'address' => $this->input->post('address'),
+				'salary' => $this->input->post('salary'),
 				'type_id' => $this->input->post('typeuser')
 						);
 			print_r($data);			
 			if($result = $this->Users_Model->update_User($id,$data)){
-				$this->session->set_flashdata('message_update_permision','อัพเดท permision สำเร็จ');
-				redirect('admin/Users/index');
+				//$this->session->set_flashdata('message_update_permision','อัพเดท permision สำเร็จ');
+				redirect('admin/Users/form_edit/'.$id);
 			}
 			else{
-				$this->session->set_flashdata('message_update_permision','อัพเดท permision ไม่สำเร็จ');
-				redirect('admin/Users/index');
+				//$this->session->set_flashdata('message_update_permision','อัพเดท permision ไม่สำเร็จ');
+				redirect('admin/Users/form_edit/'.$id);
 			}
 		}
 

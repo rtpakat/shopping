@@ -70,7 +70,7 @@
                             <div class="col-6">
                                 <label for="x_card_code" class="control-label mb-1">ราคาต้นทุนสินค้า</label>
                                 <div class="input-group">
-                                    <input id="x_card_code" name="x_card_code" type="tel" class="form-control cc-cvc"
+                                    <input id="x_card_code" name="product_cost" type="tel" class="form-control cc-cvc"
                                         value="<?php echo $result->product_size ?>" data-val="true" data-val-required="Please enter the security code"
                                         data-val-cc-cvc="Please enter a valid security code" autocomplete="off">
                                 </div>

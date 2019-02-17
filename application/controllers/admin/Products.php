@@ -6,11 +6,10 @@ class Products extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		// if($this->session->userdata('auth') == null && $this->session->userdata('auth') !== "SuperAdmin" && $this->session->userdata('auth') !== "Staff")
-		// {
-		// 	//console.log('no login');
-		// 	redirect('login');
-		// }
+		if($this->session->userdata('auth') == null && $this->session->userdata('auth') <= 0)
+		{
+			redirect('home');
+		}
 		$this->load->model('Products_Model');
 		$this->load->view('layout/header_admin');
 	}
@@ -84,6 +83,7 @@ class Products extends CI_Controller {
 					'product_title' => $this->input->post('title'),
 					'product_detail' => $this->input->post('detail'),
 					'product_size' => $this->input->post('size'),
+					'product_cost' => $this->input->post('product_cost'),
 					'product_price' => $this->input->post('price'),
 					'cate_id' => $this->input->post('cate'),
 					'product_img' => $config['file_name']
@@ -164,6 +164,7 @@ class Products extends CI_Controller {
 								'product_detail' => $this->input->post('detail'),
 								'product_size' => $this->input->post('size'),
 								'product_price' => $this->input->post('price'),
+								'product_cost' => $this->input->post('product_cost'),
 								'cate_id' => $this->input->post('cate'),
 								'product_img' => $config['file_name']
 							);

@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="overview-wrap">
-                            <h2 class="title-1">Page Users</h2>
+                            <h2 class="title-1">จัดการโปรไฟล์</h2>
                         </div>
                     </div>
                 </div>
@@ -25,11 +25,13 @@
                                 <div class="profile-usertitle-name"><?php echo $result->name ?> </div>
                                 <div class="profile-usertitle-job"> Admin </div>
                             </div>
+                            <form id="edit-user" data-parsley-validate class="form-horizontal form-label-left"
+                                                method="POST" enctype="multipart/form-data" action="<?php echo base_url('admin/profile/update_profile'); ?>">
                             <div class="container profile-userbuttons">
-                                <!-- <button type="button" class="btn btn-info  btn-sm">Edit profile</button> -->
-                                <a class="btn btn-info  btn-sm" href="<?php echo base_url('admin/Profile/edit_profile/'.$result->user_id);?>"
-                                    role="button">Edit profile</a>
-                                <!-- <a class="btn btn-info  btn-sm" href="<?php echo base_url('admin/users/update_profile/'); ?>" -->
+                            <button id="payment-button" type="submit class="btn btn-lg btn-info btn-block">
+                                <span id="payment-button-amount">แก้ไขโปรไฟล์</span>
+                                <!-- <span id="payment-button-sending" style="display:none;">Sending…</span> -->
+                            </button>
                             </div>
                         </div>
                     </div>
@@ -38,7 +40,7 @@
                             <div class="portlet-title tabbable-line">
                                 <div class="caption caption-md">
                                     <i class="icon-globe theme-font hide"></i>
-                                    <span class="caption-subject font-blue-madison bold uppercase">Your info</span>
+                                    <span class="caption-subject font-blue-madison bold uppercase">รายละเอียด</span>
                                 </div>
                             </div>
                             <div class="portlet-body">
@@ -46,41 +48,41 @@
                                     <!-- Tab panes -->
                                     <div class="tab-content">
                                         <div role="tabpanel" class="tab-pane active" id="home">
-                                            <form id="edit-user" data-parsley-validate class="form-horizontal form-label-left"
-                                                method="POST" enctype="multipart/form-data" action="<?php echo base_url('admin/profile/update_profile'); ?>">
+                                            <!-- <form id="edit-user" data-parsley-validate class="form-horizontal form-label-left"
+                                                method="POST" enctype="multipart/form-data" action="<?php echo base_url('admin/profile/update_profile'); ?>"> -->
 
 
-                                                <!-- <input type="hidden" id="user_id" name="user_id" readonly="true" value="<?php echo $result->user_id ?>"
-                                                    class="form-control col-md-7 col-xs-12"> -->
-
+                                                <input type="hidden" id="user_id" name="user_id" readonly="true" value="<?php echo $result->user_id ?>"
+>
+ 
                                                 <div class="form-group">
-                                                    <label for="inputName">Name</label>
-                                                    <input type="text" class="form-control" id="inputName" placeholder="Name" value="<?php echo $result->name ?>">
+                                                    <label for="inputName">ชื่อ</label>
+                                                    <input type="text" class="form-control" id="inputName" placeholder="Name" name="name" value="<?php echo $result->name ?>">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputLastName">Last Name</label>
+                                                    <label for="inputLastName">นามสกุล</label>
                                                     <input type="text" class="form-control" id="inputLastName"
-                                                        placeholder="Last Name" value="<?php echo $result->lastname ?>">
+                                                        placeholder="Last Name" value="<?php echo $result->lastname ?>" name="lastname">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputAddress">Address</label>
+                                                    <label for="inputLastName">เบอร์โทร</label>
+                                                    <input type="text" class="form-control" id="inputTel"
+                                                        placeholder="Tel" value="<?php echo $result->tel ?>" name="tel">
+                                                </div>                                                
+                                                <div class="form-group">
+                                                    <label for="inputAddress">ที่อยู่</label>
                                                     <textarea type="text" class="form-control" id="inputAddress"
-                                                        placeholder="Last Name"><?php echo $result->address ?></textarea>
+                                                        placeholder="Address" name="address"><?php echo $result->address ?></textarea>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleInputEmail1">Email address</label>
+                                                    <label for="exampleInputEmail1">อีเมล</label>
                                                     <input type="email" class="form-control" id="exampleInputEmail1"
-                                                        placeholder="Email" value="<?php echo $result->email ?>">
+                                                        placeholder="Email" value="<?php echo $result->email ?>" name="email">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleInputPassword1">Password</label>
+                                                    <label for="exampleInputPassword1">รหัสผ่าน</label>
                                                     <input type="password" class="form-control" id="exampleInputPassword1"
-                                                        placeholder="Password" readonly="true">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="exampleInputFile">File input</label>
-                                                    <input type="file" id="exampleInputFile">
-                                                    <p class="help-block">Example block-level help text here.</p>
+                                                        placeholder="Password" value="<?php echo $result->password ?>" name="password">
                                                 </div>
                                             </form>
                                         </div>

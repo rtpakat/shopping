@@ -7,6 +7,7 @@ class Login extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('Users_Model');
+		$this->load->model('Members_Model');
 
 	}
 
@@ -17,53 +18,55 @@ class Login extends CI_Controller {
 
 	public function checklogin()
 	{
-		$user = $this->Users_Model->get_Users();
-		print_r($user);
+
 		if($this->input->server('REQUEST_METHOD') == "POST")
 		{	
-					echo $this->input->post('email');
-		echo $this->input->post('password');
-			echo $pass = md5($this->input->post('password'));
-			// $pass = md5($this->input->post('password'));
-			if($this->Users_Model->record_count($this->input->post('email'), $this->input->post('password')) == 1)
+			if($this->Members_Model->record_count($this->input->post('email'), $this->input->post('password')) == 1)
 			{
-				
-				$result = $this->Users_Model->fetch_user_login($this->input->post('email'), $this->input->post('password'));
+				$result = $this->Members_Model->fetch_user_login($this->input->post('email'), $this->input->post('password'));
 
 				$this->session->set_userdata(array(
-					'login_id'     => $result->user_id,
-					'display_name'     => $result->username,
-					'auth'     => $result->type_id,
+					'login_id'     => $result->member_id,
+					'display_name'     => $result->name.' '.$result->lastname,
+					'auth'     => 'member',
 					));
-
-				//echo $this->session->userdata('auth');
-				if($this->session->userdata('auth') !== null && $this->session->userdata('auth') >= 2)
-				{
-					//redirect('admin/Dashboard');
-					echo "login สำเร็จ";
-				}else {
-					//redirect('home');
-					echo "login ไม่าำเร็จ";
-				}
+				redirect('home');
+				// echo(1);
 
 			}
 			else{
-				// $this->session->set_flashdata('message_login','email / password ผิด');
-				//redirect('login');
-				echo "login ผิด";
-				echo $this->input->post('email');
-				echo $this->input->post('password');
-				$pass = md5($this->input->post('password'));
-				echo $pass;
+				if($this->Users_Model->record_count($this->input->post('email'), $this->input->post('password')) == 1)
+				{
+
+					$result = $this->Users_Model->fetch_user_login($this->input->post('email'), $this->input->post('password'));
+
+					if($result->type_id > 0)
+					{
+						$this->session->set_userdata(array(
+						'login_id'     => $result->user_id,
+						'display_name'     => $result->name . " " . $result->lastname,
+						'auth'     => $result->type_id,
+						));
+						redirect('admin/dashboard');
+						echo(2);
+					}else{
+						//$this->session->set_flashdata('message_login','คุณไม่ได้รับสิทธิ์การเข้าถึง');
+						//redirect('home');
+						echo(3);
+					}
+				}
+				else{
+					$this->session->set_flashdata('message_login','username / password ผิด');
+					redirect('home');	
+					echo(4);
+				}
 			}
-				
 		}
 		else{
-				// $this->session->set_flashdata('message_login','มีข้อผิดพลาดเกิดขึ้น');
-				//redirect('login');
-			echo "login ผิดพลาด";
+				//$this->session->set_flashdata('message_login','มีข้อผิดพลาดเกิดขึ้น');
+				//redirect('home');
+			echo(5);
 		}
-		
 	}
 
 	public function logout()
@@ -76,42 +79,39 @@ class Login extends CI_Controller {
 	{
 		if($this->input->server('REQUEST_METHOD') == "POST")
 		{
-			$pass = md5($this->input->post('password'));
 
 			$data = array(
-				'username' => $this->input->post('username'),
-				'email' => $this->input->post('email'),
-				'password' => $pass
+				'email' => $this->input->post('email'),			
+				'password' => $this->input->post('password'),
+				'name' => $this->input->post('name'),			
+				'lastname' => $this->input->post('lastname')
+
 			);
 
-			if($result = $this->Users_Model->addUser($data)){
-				if($this->Users_Model->record_count($this->input->post('email'), $pass) == 1)
+			if($result = $this->Members_Model->addUser($data)){
+				if($this->Members_Model->record_count($this->input->post('email'), $this->input->post('password')) == 1)
 				{
 				
-					$result = $this->Users_Model->fetch_user_login($this->input->post('email'), $pass);
+					$result = $this->Members_Model->fetch_user_login($this->input->post('email'), $this->input->post('password'));
 
 					$this->session->set_userdata(array(
-						'login_id'     => $result->user_id,
-						'display_name'     => $result->username,
-						'auth'     => $result->type_name,
+						'login_id'     => $result->member_id,
+						'display_name'     => $result->name . " " . $result->lastname,
+						'auth'     => 'member',
 						));
-
-					//echo $this->session->userdata('auth');
-					if($this->session->userdata('auth') !== null && $this->session->userdata('auth')=="admin")
-					{
-						redirect('admin/Dashboard');
-					}else {
 						redirect('home');
-					}
+					echo(1);
 
 				}
 				else{
 					// $this->session->set_flashdata('message_login','email / password ผิด');
-					// redirect('login');
+					redirect('home');
+					echo(2);
 				}
 			}else{
 				// $this->session->set_flashdata('message_addUser','addUser: error / ข้อมูลซ้ำ ');
 				// redirect('login');
+				echo(3);
 			}
 		}
 	}

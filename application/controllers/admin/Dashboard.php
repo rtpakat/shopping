@@ -6,11 +6,10 @@ class Dashboard extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		// if($this->session->userdata('auth') == null && $this->session->userdata('auth') !== "SuperAdmin" && $this->session->userdata('auth') !== "Staff")
-		// {
-		// 	//console.log('no login');
-		// 	redirect('login');
-		// }
+		if($this->session->userdata('auth') == null && $this->session->userdata('auth') <= 0)
+		{
+			redirect('home');
+		}
 	}
 
 	public function index()

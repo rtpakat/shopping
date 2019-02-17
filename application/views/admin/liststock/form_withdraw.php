@@ -9,26 +9,21 @@
                         <h3 class="text-center title-2">เบิกสต็อกสินค้า</h3>
                     </div>
                     <hr>
-                    <?php foreach($listProductID as $result): ?>
-                    <form action="<?php echo base_url('admin/List_Product/withdraw_product'); ?>" method="post" novalidate="novalidate" enctype="multipart/form-data">
+                    <?php foreach($listStockID as $result): ?>
+                    <form action="<?php echo base_url('admin/List_stock/withdraw_stock'); ?>" method="post" novalidate="novalidate" enctype="multipart/form-data">
                         
-                        <input type="text" id="product_id" name="product_id" readonly="true" value="<?php echo $result->product_id ?>">
+                        <input type="text" id="stock_id" name="stock_id" readonly="true" value="<?php echo $result->stock_id ?>">
 
                         <div class="form-group">
                             <label for="name" class="control-label mb-1">ชื่อสินค้า</label>
-                            <input id="name" name="name" type="text" class="form-control" aria-required="true" aria-invalid="false" value="<?php echo $result->product_name ?>">
+                            <input id="name" name="name" type="text" class="form-control" aria-required="true" aria-invalid="false" value="<?php echo $result->stock_name ?>">
                         </div>
-                        <div class="form-group has-success">
-                            <label for="size" class="control-label mb-1">size</label>
-                            <input id="size" name="size" type="text" class="form-control cc-name valid" data-val="true" data-val-required="Please enter the name on card"
-                                autocomplete="cc-name" aria-required="true" aria-invalid="false" aria-describedby="กรุณากรอกคำอธิบายสั้นๆ" value="<?php echo $result->product_size ?>">
-                            <span class="help-block field-validation-valid" data-valmsg-for="cc-name" data-valmsg-replace="true"></span>
-                        </div>
+                        
                         <div class="col-6">
                             <label for="x_card_code" class="control-label mb-1">จำนวนสต็อก</label>
                                 <div class="input-group">
                                     <input id="old_quality" name="old_quality" type="number" readonly="true" class="form-control cc-cvc" data-val="true" data-val-required="Please enter the security code"
-                                        data-val-cc-cvc="Please enter a valid security code" autocomplete="off" value="<?php echo $result->product_quality ?>">
+                                        data-val-cc-cvc="Please enter a valid security code" autocomplete="off" value="<?php echo $result->stock_qty ?>">
                                 </div>
                             </div>
                         </div>                          

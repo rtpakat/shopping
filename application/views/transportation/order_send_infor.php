@@ -13,7 +13,6 @@
 		 confirm cart </h3>
 	<div style="text-align:center;margin-bottom:8px;">
 	<button type="button" class="btn btn-primary btn-lg">จัดส่งแบบไปรษณี</button>
-<button type="button" class="btn btn-secondary btn-lg">จัดส่งถึงบ้าน</button>
 	</div>	 
 		 
       <form  name="formlogin" action="" method="POST" id="login" class="form-horizontal">

@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-//$config['base_url'] = 'http://localhost/longanapp/';
-$config['base_url'] = 'http://localhost/shopping/';
+// $config['base_url'] = 'http://kookn.cis-training.com/shopping/';
+$config['base_url'] = 'http://localhost:8080/shopping/';
 /*
 |--------------------------------------------------------------------------
 | Index File
